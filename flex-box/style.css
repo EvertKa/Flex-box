@@ -73,15 +73,47 @@
     color: white;
     padding-top: 20px;
     padding-left: 70px;
-
-
+    display: flex;
 }
 
 .pildid{
     display: grid;
     grid-template-columns: auto auto;
-    height: 200px;
-    width: 200px;
+    height: 70px;
+    width: 33px;
+    background-color: white;
+}
+
+.pilt2{
+    padding-top: 20px;
+    padding-left: 50px;
+    background-color: white;
+}
+
+.pilt4{
+    padding-bottom: 20px;
+    padding-left: 50px;
+    background-color: white;
+}
+
+h3{
+    margin: 0px 0px 15px;
+    font-size: 21px;
+    
+}
+
+.kast1{
+    
+}
+
+.kast2{
+    margin-left: 300px;
+    font-size: 16px;
+}
+
+.kast3{
+    font-size: 16px;
+    margin-left: 100px;
 }
 
 @media only screen and (max-width: 600px){
